@@ -1,0 +1,126 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body>
+  
+<div class="container">
+  <form>
+<div id="tidal"> 
+  <h1 id="title">Outsiders Farm & Sons</h1><strong>Livestock Production Unit</strong></div></form><br><br><br>
+  
+<section id="rru-description">
+  <p id="description"><strong>APPLICATION FORM</strong></p>
+  </section>
+  <form id="survey-form">
+    <h2 id="title-pad">Sign-up here:</h2>
+  
+ 
+  <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Age<span class="clue">(optional)</span></label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+<br>
+
+
+<fieldset class="form-group">
+        <legend>What position are you applying?</legend>
+        <input id="liger" type="radio" name="levels" value="liger">
+        <label for="liger">Animal Caretaker </label><br>
+        <input id="intermediate" type="radio" name="levels" value="Not-a-rabbit">
+        <label for="intermediate">Farm Manager</label><br>
+        <input id="master" type="radio" name="levels" value="master">
+        <label for="master">Farm Transporter</label>
+      </fieldset>
+
+  <div class="form-group">
+      <p>Which option best describes your qualification?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select qualification</option>
+        <option value="student">Student</option>
+        <option value="job">Farm Certificate</option>
+        <option value="graduate">Graduate</option>
+        <option value="preferNo">Prefer not to say</option>
+        <option value="other">Other</option>
+    </select></div>
+ <br>
+   
+  
+<div class="form-group"><br>
+ <p>What means of valid identification do you have?</p><br>
+ <section id="grid-container">
+  <div "id=item2">
+   <label>
+     <input
+      class="input-checkbox"
+      type="checkbox"
+      name="likes"
+      value="Voters Card">
+ Voters Card</label><br>
+  <label
+        ><input 
+          name="likes"
+          value="NIMC Slip"
+          type="checkbox"
+          class="input-checkbox"
+                />NIMC Slip</label><br>
+                <label
+        ><input 
+          name="likes"
+          value="National ID Card"
+          type="checkbox"
+          class="input-checkbox"
+                />National ID Card</label><br>
+   </div>
+  <div id="item3">
+
+       <input
+          name="likes"
+          value="International Passport"
+          type="checkbox"
+          class="input-checkbox">International Passport</label>
+   </div></section>
+    <div class="form-group">
+      <p>Please leave any comments or questions below...</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+                type="textarea"
+                name="comments"
+                placeholder="Leave comments here">
+</textarea></div></section>
+    <Div>
+      <button id="submit" class="submit-button">
+        <input type="submit"
+               name="submit"
+               
+        </button>
